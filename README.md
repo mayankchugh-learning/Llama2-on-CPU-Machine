@@ -15,15 +15,19 @@ git clone https://github.com/
 Create a virtual environment
 
 ```bash
-conda create -n cpullama python=3.8 -y
+conda create -p cpullama python=3.8 -y
 ```
 
 ```bash
-conda activate cpullama
+conda activate D:\git\Llama2-on-CPU-Machine\cpullama
 ```
 
 ```bash
 pip install -r requirements.txt
+```
+
+```bash
+python app.py
 ```
 
 
